@@ -1,0 +1,4 @@
+﻿table,variable,stored_value,label_en,note
+master_panel.csv,region,东部,East,"Original category retained; three-region grouping, not a four-region Northeast classification."
+master_panel.csv,region,中部,Central,"Original category retained; three-region grouping, not a four-region Northeast classification."
+master_panel.csv,region,西部,West,"Original category retained; three-region grouping, not a four-region Northeast classification."

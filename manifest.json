@@ -1,0 +1,258 @@
+{
+  "input_sha256": {
+    "master_panel.csv": "fa2dd899594d1cf1fe9a6ee9cd02c29424c32e8f57cbaf19d1546c4335341e62",
+    "panel_merged_v4.csv": "c3cce208822cba14ec73591b37d21db26f97e9de9a81508ad7c99e11c156b9b2",
+    "weather_feather.csv": "b5800521541d8ead5c2e64a2efdba7fd2fc4a5750f430cc978a71ed9cf773a48",
+    "dry_index_province_month_2000_2024.csv": "817379890c239df3d51de8a6729ff880bf107eb10a6b29cf70e69e7306a17ff6",
+    "农业利润福利面板.xlsx": "49d8adadc8e85cff769b95f9b750a8298dc61ae74ce519b06116fb9a5913ad6a",
+    "农业利润福利面板_说明.md": "0375ff6063dbe955c70f5d6d505ae6400bc5eed2d7d4dbd74c8b3da859663980",
+    "农业政策面板.xlsx": "9e6143c68fa878c0906d698d90ca2690bce35c8cb5745a2923e89b3c632e7865"
+  },
+  "outputs": {
+    "data/climate_annual_supplement.csv": {
+      "rows": 775,
+      "columns": 15,
+      "sha256": "a9f9cddda4deb0315f494c275bf0e82f3f58c28608e993b7de7260f2437302cf"
+    },
+    "data/climate_monthly.csv": {
+      "rows": 9300,
+      "columns": 12,
+      "sha256": "abe3b4a265267f1dad0815299b35b01dcbc2c2c61e798d766c13c26ef37a770e"
+    },
+    "data/drought_monthly.csv": {
+      "rows": 9300,
+      "columns": 6,
+      "sha256": "eb30ab531fa5b56b6803dabbe977ee1bc8a0d7cb0e0b52f2a312ab4b9174f2c3"
+    },
+    "data/master_panel.csv": {
+      "rows": 775,
+      "columns": 126,
+      "sha256": "fa2dd899594d1cf1fe9a6ee9cd02c29424c32e8f57cbaf19d1546c4335341e62"
+    },
+    "data/water_intensity_denominator.csv": {
+      "rows": 775,
+      "columns": 3,
+      "sha256": "28ad910c10d942373b37c9ab4540859e05fbe9d6156d4bab1f52b79e256103d1"
+    },
+    "data/welfare/family_operating_income_old.csv": {
+      "rows": 314,
+      "columns": 3,
+      "sha256": "747541b230ab22d2de76d566686c1113f9851332b10fad1838fbc799598637f8",
+      "source_workbook": "agricultural_welfare_panel.xlsx",
+      "source_sheet": "family_income_old_2000_2013",
+      "keys": [
+        "Province",
+        "Year"
+      ],
+      "year_min": 2000,
+      "year_max": 2013,
+      "key_balanced": false,
+      "original_source_workbook": "农业利润福利面板.xlsx",
+      "original_source_sheet": "家庭经营纯收入_2000_2013"
+    },
+    "data/welfare/net_operating_income_new.csv": {
+      "rows": 341,
+      "columns": 3,
+      "sha256": "8bc2fd6bb6855a33c026818af83e569a0287438297f476b722a3495c821cffa4",
+      "source_workbook": "agricultural_welfare_panel.xlsx",
+      "source_sheet": "operating_income_new_2014_2024",
+      "keys": [
+        "Province",
+        "Year"
+      ],
+      "year_min": 2014,
+      "year_max": 2024,
+      "key_balanced": true,
+      "original_source_workbook": "农业利润福利面板.xlsx",
+      "original_source_sheet": "经营净收入_2014_2024"
+    },
+    "data/welfare/primary_industry_value_added.csv": {
+      "rows": 775,
+      "columns": 3,
+      "sha256": "b0a2d1eda9bb72999d6aec90fdd4c25580dfe20455338f6a4dbae1e3fdceae86",
+      "source_workbook": "agricultural_welfare_panel.xlsx",
+      "source_sheet": "primary_value_added_2000_2024",
+      "keys": [
+        "Province",
+        "Year"
+      ],
+      "year_min": 2000,
+      "year_max": 2024,
+      "key_balanced": true,
+      "original_source_workbook": "农业利润福利面板.xlsx",
+      "original_source_sheet": "第一产业增加值_2000_2024"
+    },
+    "data/policy/grain_sown_area.csv": {
+      "rows": 775,
+      "columns": 3,
+      "sha256": "710982e9b6cded74fbc23dca61cd693c7e6a061da45a8f823e11ead4a8c27bda",
+      "source_workbook": "agricultural_policy_panel.xlsx",
+      "source_sheet": "grain_sown_area",
+      "keys": [
+        "Province",
+        "Year"
+      ],
+      "year_min": 2000,
+      "year_max": 2024,
+      "key_balanced": true,
+      "original_source_workbook": "农业政策面板.xlsx",
+      "original_source_sheet": "粮食作物播种面积"
+    },
+    "data/policy/small_irrigation_batches.csv": {
+      "rows": 31,
+      "columns": 7,
+      "sha256": "f93ec787926766dab9a5634204ab7b4f7fd38358d434f6afe04fd529dcf530df",
+      "source_workbook": "agricultural_policy_panel.xlsx",
+      "source_sheet": "small_irrigation_batches",
+      "keys": [
+        "Province"
+      ],
+      "year_min": null,
+      "year_max": null,
+      "key_balanced": true,
+      "original_source_workbook": "农业政策面板.xlsx",
+      "original_source_sheet": "小型农田水利重点县分批情况"
+    },
+    "data/policy/high_standard_farmland.csv": {
+      "rows": 372,
+      "columns": 4,
+      "sha256": "a9311d5dc8525abd273c9a9bb1df497439ea9b86a9e4d4c827228c478080eae0",
+      "source_workbook": "agricultural_policy_panel.xlsx",
+      "source_sheet": "high_standard_farmland",
+      "keys": [
+        "Province",
+        "Year"
+      ],
+      "year_min": 2013,
+      "year_max": 2024,
+      "key_balanced": true,
+      "original_source_workbook": "农业政策面板.xlsx",
+      "original_source_sheet": "高标准农田建设面积"
+    },
+    "data/policy/small_irrigation_intensity.csv": {
+      "rows": 775,
+      "columns": 5,
+      "sha256": "7ab4b19cc686e74bec8d04378c55f0127a07e315f147f36069b52cf51bc4198a",
+      "source_workbook": "agricultural_policy_panel.xlsx",
+      "source_sheet": "small_irrigation_intensity",
+      "keys": [
+        "Province",
+        "Year"
+      ],
+      "year_min": 2000,
+      "year_max": 2024,
+      "key_balanced": true,
+      "original_source_workbook": "农业政策面板.xlsx",
+      "original_source_sheet": "小型农田水利重点县处理强度"
+    }
+  },
+  "note": "Documented data resource, local version 1.0.0. Numeric data unchanged by 2026-11-04 documentation update. English workbook copies preserve source numeric values but are not byte-identical originals. Saved-result consistency check is not full model execution, public upload, or redistribution clearance.",
+  "source_files": {
+    "data/source_workbooks/agricultural_welfare_panel.xlsx": {
+      "sha256": "8b5bede2b05a3b84530e6d43721c886b1dd2cd818c40e596625e2d29383b65cf",
+      "source_file": "农业利润福利面板.xlsx",
+      "byte_identical": false,
+      "transformation": "English workbook/sheet/column labels and translated documentation sheets; numeric data unchanged."
+    },
+    "docs/source_notes/agricultural_welfare_panel_notes_zh.md": {
+      "sha256": "5ad3c9dfc822576a80d148d5f3dd45c22ec4fcc59b5a0ca951174365d469a820",
+      "source_file": "农业利润福利面板_说明.md",
+      "byte_identical": false,
+      "transformation": "Shortened Chinese source note under an English filename; source data unchanged."
+    },
+    "data/source_workbooks/agricultural_policy_panel.xlsx": {
+      "sha256": "0f40a2d81348508f0a0de3d896de4bfeb21fecb9a31bb3b2bbb9905e34d1e3a5",
+      "source_file": "农业政策面板.xlsx",
+      "byte_identical": false,
+      "transformation": "English workbook/sheet/column labels and translated documentation sheets; numeric data unchanged."
+    }
+  },
+  "language_audit": {
+    "date": "2026-10-30",
+    "timezone": "Asia/Shanghai",
+    "release_paths": "English / ASCII",
+    "csv_headers": "English / ASCII identifiers",
+    "excel_sheet_names_and_headers": "English / ASCII identifiers",
+    "numeric_csv_tables": 12,
+    "numeric_excel_sheets": 7,
+    "total_excel_sheets": 9,
+    "dictionary_entries_per_view": 190,
+    "english_only_dictionary": "docs/data_dictionary_en.csv",
+    "bilingual_dictionary": "docs/data_dictionary.csv",
+    "naming_map": "docs/naming_map.csv",
+    "preserved_non_english_content": "Chinese companions, bilingual labels, provenance names, original region category values; no Chinese release filenames or field headers."
+  },
+  "documentation_files": {
+    "CHANGELOG.md": {
+      "sha256": "f95cd8110a99fb0843b943bc846ba251627f5154c096bcefe009073f0c353262"
+    },
+    "CHANGELOG_zh.md": {
+      "sha256": "f633f7b7dbb1d67be747fbe6407309a91ab2ff0ea69ec29a382d8be4780f2b52"
+    },
+    "docs/analysis_result_crosswalk.csv": {
+      "sha256": "e12bcaf74c2a797088a164ee199631c54365bfed822da9250c0d5e26ef44e750",
+      "rows": 14,
+      "columns": 11
+    },
+    "docs/categorical_value_labels.csv": {
+      "sha256": "b08da43d6c7cf15f861a4b1eb11f6de0efdc8892c36507084a59c63d499db8a2",
+      "rows": 3,
+      "columns": 5
+    },
+    "docs/data_dictionary.csv": {
+      "sha256": "61a0a94c91974c36b6d57355964fa530b29772a849a04e8638f7b10e6f379ec1",
+      "rows": 190,
+      "columns": 11
+    },
+    "docs/data_dictionary_en.csv": {
+      "sha256": "edce9a4459ded11112c8380e9a7877889624058d459f0a1b0d90bd9e9426cbc5",
+      "rows": 190,
+      "columns": 10
+    },
+    "docs/focal_script_dependency_audit.csv": {
+      "sha256": "0a3fbd02eee3e9d8bd05de737f3abb787d9b338dd191a863cce6b86e5fd3cbd2",
+      "rows": 12,
+      "columns": 5
+    },
+    "docs/indicator_definitions_en.md": {
+      "sha256": "f257b706033e5de017325b46352c8c59e0c13ca444ce0fdd778ef83b96cb1082"
+    },
+    "docs/indicator_definitions_zh.md": {
+      "sha256": "55403f058799a9629b375f5ce54449cf2c9e689c90be4e1d4d3695df8fb04c11"
+    },
+    "docs/naming_map.csv": {
+      "sha256": "55b94fdd8304997bd8442d25a3e15116d3076bdc1d15f25293bdbd58fbd3b0b1",
+      "rows": 27,
+      "columns": 5
+    },
+    "docs/source_notes/agricultural_welfare_panel_notes_en.md": {
+      "sha256": "7f78aa37a6fa417d04441bb177db3befb2c30e353b730bfe3ed28e2146decd01"
+    },
+    "docs/source_notes/agricultural_welfare_panel_notes_zh.md": {
+      "sha256": "5ad3c9dfc822576a80d148d5f3dd45c22ec4fcc59b5a0ca951174365d469a820"
+    },
+    "docs/workbook_sheet_inventory.csv": {
+      "sha256": "75ad19e3634561e1d1ba8cd2138a7797399657d6f58a641e600dab79812555f7",
+      "rows": 9,
+      "columns": 11
+    },
+    "README.md": {
+      "sha256": "487c9c13cbff90a78983bf85b894cbaa9ddb3c7d595f189bad84d103592f8d96"
+    },
+    "README_zh.md": {
+      "sha256": "16b8a5e904354ab2a85901a221875c6940716bd7ead4f5aba5d3ebc8086c9c53"
+    }
+  },
+  "release": {
+    "version": "1.0.0",
+    "documentation_date": "2026-11-04",
+    "timezone": "Asia/Shanghai",
+    "status": "documented_local_package",
+    "public_repository_url": null,
+    "archive_doi": null,
+    "full_replication_package": false,
+    "third_party_redistribution_rights_cleared": false,
+    "collaborator_result_snapshot": "lirui2.0/ch06/output; supplied and checked 2026-11-03",
+    "numeric_data_changed": false
+  }
+}

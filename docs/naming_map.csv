@@ -1,0 +1,28 @@
+﻿kind,original_name,release_name,context,note
+file,data/source_workbooks/农业利润福利面板.xlsx,data/source_workbooks/agricultural_welfare_panel.xlsx,release-relative path,External source files remain unchanged.
+file,data/source_workbooks/农业政策面板.xlsx,data/source_workbooks/agricultural_policy_panel.xlsx,release-relative path,External source files remain unchanged.
+file,docs/source_notes/农业利润福利面板_说明.md,docs/source_notes/agricultural_welfare_panel_notes_zh.md,release-relative path,External source files remain unchanged.
+file,docs/指标口径与计算说明_zh.md,docs/indicator_definitions_zh.md,release-relative path,External source files remain unchanged.
+file,docs/发布安排_zh.md,docs/release_plan_zh.md,release-relative path,External source files remain unchanged.
+sheet,家庭经营纯收入_2000_2013,family_income_old_2000_2013,agricultural_welfare_panel.xlsx,Numeric data preserved; documentation sheets translated into English.
+field,家庭经营纯收入_元每人,Family_Operating_Net_Income_Old,agricultural_welfare_panel.xlsx/family_income_old_2000_2013,Header label only; numerical values unchanged.
+sheet,经营净收入_2014_2024,operating_income_new_2014_2024,agricultural_welfare_panel.xlsx,Numeric data preserved; documentation sheets translated into English.
+field,经营净收入_元每人,Net_Operating_Income_New,agricultural_welfare_panel.xlsx/operating_income_new_2014_2024,Header label only; numerical values unchanged.
+sheet,第一产业增加值_2000_2024,primary_value_added_2000_2024,agricultural_welfare_panel.xlsx,Numeric data preserved; documentation sheets translated into English.
+field,第一产业增加值_亿元,Primary_Industry_Value_Added,agricultural_welfare_panel.xlsx/primary_value_added_2000_2024,Header label only; numerical values unchanged.
+sheet,未找到指标说明,unavailable_indicators,agricultural_welfare_panel.xlsx,Numeric data preserved; documentation sheets translated into English.
+field,指标,Indicator,agricultural_welfare_panel.xlsx/unavailable_indicators,Header label only; numerical values unchanged.
+field,结论,Finding,agricultural_welfare_panel.xlsx/unavailable_indicators,Header label only; numerical values unchanged.
+field,关键证据,Evidence,agricultural_welfare_panel.xlsx/unavailable_indicators,Header label only; numerical values unchanged.
+sheet,来源与缺口说明,sources_and_gaps,agricultural_welfare_panel.xlsx,Numeric data preserved; documentation sheets translated into English.
+field,项目,Item,agricultural_welfare_panel.xlsx/sources_and_gaps,Header label only; numerical values unchanged.
+field,内容,Description,agricultural_welfare_panel.xlsx/sources_and_gaps,Header label only; numerical values unchanged.
+sheet,粮食作物播种面积,grain_sown_area,agricultural_policy_panel.xlsx,Numeric data preserved; documentation sheets translated into English.
+sheet,小型农田水利重点县分批情况,small_irrigation_batches,agricultural_policy_panel.xlsx,Numeric data preserved; documentation sheets translated into English.
+field,province,Province,agricultural_policy_panel.xlsx/small_irrigation_batches,Header label only; numerical values unchanged.
+sheet,高标准农田建设面积,high_standard_farmland,agricultural_policy_panel.xlsx,Numeric data preserved; documentation sheets translated into English.
+field,province,Province,agricultural_policy_panel.xlsx/high_standard_farmland,Header label only; numerical values unchanged.
+field,year,Year,agricultural_policy_panel.xlsx/high_standard_farmland,Header label only; numerical values unchanged.
+sheet,小型农田水利重点县处理强度,small_irrigation_intensity,agricultural_policy_panel.xlsx,Numeric data preserved; documentation sheets translated into English.
+field,province,Province,agricultural_policy_panel.xlsx/small_irrigation_intensity,Header label only; numerical values unchanged.
+field,year,Year,agricultural_policy_panel.xlsx/small_irrigation_intensity,Header label only; numerical values unchanged.

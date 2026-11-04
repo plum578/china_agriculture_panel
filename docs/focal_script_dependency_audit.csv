@@ -1,0 +1,13 @@
+﻿script,old_disaster_references,uses_province_code,monthly_dependency,note
+future.py,none,False,False,"Static audit, not a regression rerun; excludes older analysis folders."
+iv_endogeneity_check.py,none,True,False,"Static audit, not a regression rerun; excludes older analysis folders."
+L3_2.py,none,False,True,"Static audit, not a regression rerun; excludes older analysis folders."
+machanism_upgrade.py,none,True,False,"Static audit, not a regression rerun; excludes older analysis folders."
+national_difference.py,none,False,False,"Static audit, not a regression rerun; excludes older analysis folders."
+research_upgrade_3in1.py,none,True,False,"Static audit, not a regression rerun; excludes older analysis folders."
+routeA_reservoir_did.py,none,True,False,"Static audit, not a regression rerun; excludes older analysis folders."
+step4_2.py,none,False,False,"Static audit, not a regression rerun; excludes older analysis folders."
+step4_3.py,none,False,False,"Static audit, not a regression rerun; excludes older analysis folders."
+step5_4.py,none,False,False,"Static audit, not a regression rerun; excludes older analysis folders."
+step6_7_r3.py,none,False,True,"Static audit, not a regression rerun; excludes older analysis folders."
+upgrade_2.py,none,True,False,"Static audit, not a regression rerun; excludes older analysis folders."
